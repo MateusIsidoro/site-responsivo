@@ -1,0 +1,114 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    width: 100vw;
+    height: 70px;
+    background-image: url(ja.jpg);
+    background-size: 100%;
+    background-position: 0px 610px;
+}
+footer{
+    background-color: darkred;
+    width: 100vw;
+    height: 70px;
+    position: absolute;
+    bottom: 10;
+    background-image: url(pi.jfif);
+    background-size: 100%;
+    background-position: center;
+}
+.imagem{
+    height: 150px;
+    height: 150px;
+    background-color: black;  
+}
+.conteudo{
+    border: white;
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding: 0 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url(fu.jfif);
+    background-size: 100%;
+}
+.card{
+    backdrop-filter: blur(5px);
+    margin: 20px 0;
+    box-shadow: 8px 8px 18px 0px #8425936c;
+    border-radius: 8px;
+    width: 230px;
+    height: 400px;
+    background: rgba(241, 238, 238, 0.356);
+    border: solid 1px black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+
+}
+.titulo{
+    font-weight: bolder;
+}
+.imformacao{
+    padding-top: 10px;
+    font-weight: 200;
+    color: black;
+}
+.dados{
+    text-align: center;
+    background: rgba(220, 220, 220, 0.445);
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+body{
+    background-color: black;
+}
+h1{
+    position: absolute;
+    color: white;
+    left: 40%;
+}
+@media screen and (max-width:414px){
+    .conteudo{
+        background-image: url(blog-da-geografia-wallpaper.jpg);
+        padding-top: 20px;
+    }
+    h1{
+        position: absolute;
+        left: 30%;
+        margin: 15px;
+        font-size: large;
+    }
+    #aaa{
+        padding-top: 500px;
+    }
+    .card{
+        width: 240px;
+        height: 320px;
+    }
+    .imagem{
+        height: 100px;
+        height: 100px;
+    }
+    .dados{
+        font-size: 95%;
+    }
+    header{
+        background-image: url(ja.jpg);
+        background-size: 100%;
+        background-position: -0px -725px ;
+    }
+    
+}
